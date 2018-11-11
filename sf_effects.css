@@ -19,6 +19,8 @@ body {
     filter: drop-shadow( 10px 10px 50px) rgb(51, 51, 51);
 }
 
+/*I added a drop shadow to the body and made the shadow dark grey using an rgb selector*/
+
 /* Navigation Tabs List Styles */
 
 body > header nav.tabs {
@@ -37,7 +39,7 @@ body > header nav.tabs li:hover {
 }
 
 
-
+/* Made a background image behind the navigation tab that doesn't repeat and covers the entire navigation background. Created a CSS effect to make the tabs into trapezoids. Also created a hover effect when the mouse hovers over navigation.*/
 /* Left Section Styles */
 
 section#left nav.vertical {
@@ -52,11 +54,7 @@ section#left nav.vertical h1 {
     border-top-right-radius: 25px;
 }
 
-
-
-
-
-
+/*applies a one pixel solid border around the navigation lists and also creates rounded corners.*/
 /* Center Article Styles */
 
 section#center article {
@@ -68,7 +66,7 @@ section#center article {
     box-shadow: 10px 10px 20px rgb(51, 51, 51);
 }
 
-
+/*Creates a background radial gradient using the colors of grey and white. Applies a one pixel solid border that is grey. Creates shadow effect in top-right and bottom-right corners.*/
 /* Blockquote Styles */
 
 blockquote{
@@ -82,3 +80,4 @@ cite img{
     border-radius: 50%;
 }
 
+/*Applies a background image inside the blockquote element. The image does not repeat and is made square by using 100% by 100% for the size of the image. The cite img allows the review photos to appear as circle inistead of square by setting the border radius to 50%.*/
